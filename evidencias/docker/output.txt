@@ -1,0 +1,12 @@
+CONTAINER ID   IMAGE           COMMAND           CREATED          STATUS                      PORTS     NAMES
+4d3f2312a99b   elden-api-app   "python app.py"   33 seconds ago   Exited (0) 31 seconds ago             samplerunning
+🕵️ Buscando 'Uchigatana' en la categoría 'weapons'...
+
+=============================================
+📜 RESULTADO ENCONTRADO (STAKEHOLDER INFO)
+=============================================
+🔹 Nombre: Uchigatana
+📝 Descripción: A katana with a long single-edged curved blade.  A unique weapon wielded by the samurai from the Land of Reeds. The blade, with its undulating design, boasts extraordinary sharpness, and ts slash attacks cause blood loss.
+⚔️ Daño Físico Base: 115
+=============================================
+

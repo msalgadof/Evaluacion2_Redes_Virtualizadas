@@ -1,0 +1,79 @@
+Lanzada por el usuario admin
+Running as SYSTEM
+Ejecutando. en el espacio de trabajo /var/lib/jenkins/workspace/Elder-Ring-Automation
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Elder-Ring-Automation/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/msalgadof/Evaluacion2_Redes_Virtualizadas.git # timeout=10
+Fetching upstream changes from https://github.com/msalgadof/Evaluacion2_Redes_Virtualizadas.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/msalgadof/Evaluacion2_Redes_Virtualizadas.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 548ca1b73b680f584aabecb4fae3622506e93a62 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 548ca1b73b680f584aabecb4fae3622506e93a62 # timeout=10
+Commit message: "Se agregan captura de pantalla y logs output.txt como evidencia de ejecucion exitosa"
+ > git rev-list --no-walk 548ca1b73b680f584aabecb4fae3622506e93a62 # timeout=10
+[Elder-Ring-Automation] $ /bin/sh -xe /tmp/jenkins13325134394250889658.sh
++ ./build.sh
+🧹 Limpiando contenedores antiguos...
+samplerunning
+🐳 Iniciando proceso de contenerización...
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 192B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.11-slim
+#2 DONE 0.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 63B done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.11-slim@sha256:9a7765b36773a37061455b332f18e265e7f58f6fea9c419a550d2a8b0e9db834
+#5 resolve docker.io/library/python:3.11-slim@sha256:9a7765b36773a37061455b332f18e265e7f58f6fea9c419a550d2a8b0e9db834 0.0s done
+#5 DONE 0.0s
+
+#6 [3/5] COPY requirements.txt .
+#6 CACHED
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY app.py .
+#9 CACHED
+
+#10 exporting to image
+#10 exporting layers done
+#10 exporting manifest sha256:2c4fac80e77df50aa65c3cbb0bfa16cd7d70c3d4f7f7156090e551f9b4c37aac done
+#10 exporting config sha256:9db8a438e8c453d469c418ac73140ddfb3507e64de87aa0c2096bdd0dafb76a2 done
+#10 exporting attestation manifest sha256:20af1d00254e9142d1044e5d91b6a07d6c3787db9ef598c94b6729abe560d2aa 0.0s done
+#10 exporting manifest list sha256:3d99a7e531a01720f0ff32ccd00a6e7dae2ec4130da46155ed453fc365f47726 done
+#10 naming to docker.io/library/elden-api-app:latest
+#10 naming to docker.io/library/elden-api-app:latest done
+#10 unpacking to docker.io/library/elden-api-app:latest done
+#10 DONE 0.1s
+🚀 Ejecutando contenedor 'samplerunning'...
+🕵️ Buscando 'Uchigatana' en la categoría 'weapons'...
+
+=============================================
+📜 RESULTADO ENCONTRADO (STAKEHOLDER INFO)
+=============================================
+🔹 Nombre: Uchigatana
+📝 Descripción: A katana with a long single-edged curved blade.  A unique weapon wielded by the samurai from the Land of Reeds. The blade, with its undulating design, boasts extraordinary sharpness, and ts slash attacks cause blood loss.
+⚔️ Daño Físico Base: 115
+=============================================
+
+✅ Proceso completado con éxito.
+Finished: SUCCESS
